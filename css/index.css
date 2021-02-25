@@ -7,3 +7,14 @@
 .custom-nav-text-padding {
     padding: 1rem;
 }
+
+.carousel-item {
+    width: 70%;
+    padding-left: 25%;
+
+}
+
+.carousel-item > img {
+    height: 50vh;
+    width: 40vw;
+}
