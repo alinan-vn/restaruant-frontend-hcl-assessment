@@ -4,10 +4,7 @@
 You are a web developer at a service-based web development company called Kite Technologies. The company has been approached by a client who wants to build a website for their restaurant named Ming’s Diner. The website should provide the users a brief overview of the restaurant and its bestsellers, its address, as well as an option to contact the restaurant. During sprint planning, you agree to lead this project and develop the website. 
 
 ## Steps
-1. Launch backend (make sure to have mysql installed with a databse caled 'taskmanagerhcl') by running the file TaskManagerApplication.java within the src/main/java/org/hcl/taskmanager folder
-2. Go to the github repo: 'https://github.com/alinan-vn/task-manager-hcl-phase-end-frontend' and clone that repo. This is the fronted of this application.
-3. Launch a live server on the index.html file within the html folder. live server on port 5500, go to 'http://127.0.0.1:5500/html/index.html'
-4. Log in or register an account. Add a task by filling the task form that pops up after you properly register. All your new tasks will also render.
+1. 
 
 ## Requirements
 - Tasks: 
