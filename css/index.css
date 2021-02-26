@@ -23,4 +23,24 @@
     width: auto;
     margin-top: 1%;
     margin-left: 45%;
+    margin-bottom: 5rem;
+}
+
+.contact-form {
+    width: 80%;
+    padding-left: 10vw;
+    padding-bottom: 5rem;
+}
+
+.carousel-btns {
+    display: flex;
+    padding-left: 43vw;
+}
+
+.carousel-btns > button {
+    height: 3rem;
+    width: 5rem;
+    border-radius: 1rem;
+    background-color: aquamarine;
+    font-weight: bolder;
 }

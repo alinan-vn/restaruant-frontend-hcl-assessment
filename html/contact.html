@@ -12,26 +12,50 @@
     <link rel="stylesheet" href="../css/index.css">
     
     <nav class="navbar navbar-expand-lg navbar-light bg-light custom-nav">
-        <div class="container-fluid">   
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                
-                <li class="nav-item custom-nav-text-padding">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                </li>
-                
-                <li class="nav-item custom-nav-text-padding">
-                    <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
-                
-            </ul>
-          </div>
+      <div class="container-fluid">   
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
+              <li class="nav-item custom-nav-text-padding">
+                  <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              
+              <li class="nav-item custom-nav-text-padding">
+                  <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+              
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-    <div>CONTACT FORM</div>
+    <form class="contact-form">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Message</label>
+        <input type="text" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
 
-    <div>FOOTER</div>
+  <div class="card">
+    <div class="card-header">
+        Featured (Footer)
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
     
 </body>
 </html>
